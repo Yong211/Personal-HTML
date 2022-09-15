@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset=“UTF-8” />
+        <meta http-equiv=“X-UA-Compatible” content=“IE=edge” />
+        <meta name=“viewport” content=“width=device-width, initial-scale=1.0” />
+        <meta property=“og:title” content=“ProfileLink” />
+        <meta property=“og:description” content=“Hello HTML!” />
+        <meta property=“og:image” content=“https://cdn-icons-png.flaticon.com/128/174/174855.png” />
+        <title>ProfileLink</title>
+        <style>
+            @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+        * {
+            font-family: "Pretendard",serif;
+        }
+            body {
+                background-image: url(Summer.jpeg);
+                background-size: cover;
+
+            }
+            .profile {
+                width: 296px;
+                height: 296px;
+
+                border : 2px solid white;
+
+                background-image: url(낙엽.JPG);
+                background-position: center;
+                background-size: cover;
+            }
+            .main{
+                color: white;
+                font-size: 20px;
+
+                margin-top: 30px;
+                margin-bottom: 10px;
+            }
+            .sub{
+                color: white;
+                font-size: 14px;
+
+                margin-top: 0px;
+                margin-bottom: 30px;
+            }
+            .wrap{
+                width: 300px;
+                margin: 30px auto 0px auto;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .wrap > a{
+                width:100px;
+                height: 100px;
+                background-color:  white;
+                border-radius: 8px;
+
+                margin-bottom: 10px;
+
+                font-size: 14px;
+                font-weight: bold;
+                color: #44398A;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                text-decoration: none;
+
+                box-shadow: 3px 3px 5px 0px gold;
+            }
+            .wrap > a:hover{
+                background-color: #f2f2f2;
+            }
+            .B1 {
+                width: 80px;
+                height: 80px;
+                background-image: url(Insta\ icon.png);
+                background-position: center;
+                background-size: cover;
+                border-radius: 50px;
+                border: solid, 2px, black;
+            }
+            .B2{
+                width: 80px;
+                height: 80px;
+                background-image: url(Facebook\ icon.png);
+                background-position: center;
+                background-size: cover;
+                border-radius: 50px;
+                border: solid, black;
+            }
+            .B3{
+                width: 80px;
+                height: 80px;
+                background-image: url(Mail\ icon.png);
+                background-position: center;
+                background-size: cover;
+                border-radius: 50px;
+                border: solid, black;
+            }
+            
+            .find-btn{
+                display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            margin-top: 10px;
+            }
+            .find-btn > button {
+            margin-right: 10px;
+            }
+            .find-btn1{
+                text-align: center;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                
+                width: 100px;
+                height: 100px;
+            }
+            .find-btn1 > button {
+            margin-right: 10px;
+            margin-top: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrap">
+            <div class="profile"></div>
+            <h1 class="main">Jooonyong</h1>
+            <P class="sub">HTML Test Site</P>
+            <div class="find-btn">
+                <button class="B1" clatype="button" class="btn btn-navy navbar-btn find-btn1" onclick="location.href='https://www.instagram.com/yong._.211/'"></button>
+                <button class="B2" type="button" class="btn btn-grey navbar-btn find-btn1" onclick="location.href='https://www.facebook.com/profile.php?id=100003667868450'"></button>
+                <button class="B3" type="button" class="btn btn-navy navbar-btn find-btn1" onclick="location.href='mailto: 9702qor@naver.com'"></button>
+            </div>
+        </div>
+    </body>
+</html> 
+
+  
+            <a target="_blank" href="https://www.instagram.com/yong._.211/"></a>
+            <a target="_blank" href="https://www.facebook.com/profile.php?id=100003667868450"></a>
+            <a href = "mailto: 9702qor@naver.com">Contact</a>*/
